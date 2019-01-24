@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html5 tag study</title>
+        <!-- <base href="https://www/yoonyoung.com"/> -->
+
+    </head>
+
+    <body>
+         <!-- TODO: notice the thing to do -->
+        <!-- FIXME: notice the thing to fix-->
+        <!-- MARK: notice the thing to mark-->
+
+        <!-- tool: Visual Studio Code
+        setup Extension: 
+        1.Active File In StatusBar
+        2.Auto Close Tag
+        3.Auto Rename Tag
+        4.Bracket Pair Colorizer
+        5.Code Spell Checker
+        6.Color Highlight
+        7.EsLint
+        8.Git History
+        9.GitLens
+        10.HTML Snippets
+        11.IntelliSense for CSS class names in HTML
+        12.Live HTML Previewer
+        13.Path IntelliSense
+        14.Prettier
+        15.TODO Highlight
+        16.vscode-icons -->
+
+        <!-- 1.태그 이름은 대소문자 구분을 하지 않습니다.
+        2.종료 태그는 반드시 작성하는 습관을 가지도록 합니다. -->
+
+        <!-- p: paragraph -->
+        <a id="p"><h2>paragraph</h2></a>
+
+        <p>hi this is my first html study file.</p>
+
+        <hr/>
+
+        <!-- h: heading -->
+        <a id="h"><h2>heading</h2></a>
+
+        <h1>I set up all extension file</h1>
+        <h2>I set up all extension file</h2>
+        <h3>I set up all extension file</h3>
+        <h4>I set up all extension file</h4>
+        <h5>I set up all extension file</h5>
+        <h6>I set up all extension file</h6>
+
+        <!-- hr:horizontal line -->
+        <hr/>
+
+        <!-- br: break -->
+        <a id="br"><h2>breacking</h2></a>
+
+        <p>I can now <br> show <br> side preview html</p>
+
+        <hr/>
+
+        <!-- pre:previously formatted text -->
+        <a id="pre"><h2>previously formatted text</h2></a>
+
+        <pre>
+this state show exactly what I code!! </pre>
+
+        <hr/>
+
+        <!-- quot: quotation, amp:ampersand, nbsp: non-breaking space -->
+        <a id="special"><h2>special character</h2></a>
+
+        <p> &quot; cool &nbsp; &amp; &nbsp; cool &quot;</p>
+
+        <hr/>
+
+        <a id="form"><h2>form</h2></a>
+
+        <p><b>this is bold</b></p>
+        <p><strong>this is strong </strong></p>
+        <p><em>this is emphasized</em></p>
+        <p><code>this is code</code></p>
+        <p><sub>this is subscript</sub>HAHA<sup>this is superscript</sup></p>
+
+        <hr/>
+
+        <!-- ul: unordered lists -->
+        <a id="ul"><h2>unordered lists</h2></a>
+
+        <ul>
+            <li>first</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+
+        <hr/>
+
+        <!-- ol: ordered lists -->
+        <a id="ol"><h2>ordered lists</h2></a>
+
+        <ol>
+            <li>first</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+
+        <hr/>
+
+        <!-- dl: definition lists -->
+        <a id="dl"><h2>definition lists</h2></a>
+
+        <dl>
+            <dt>cat</dt>
+            <dd>- cat is cute</dd>
+
+            <dt>dog</dt>
+            <dd>- dog is cute</dd>
+        </dl>
+
+        <hr/>
+
+        <!-- a: archor -->
+        <a id="href"><h2>hyper link</h2></a>
+
+        <p><a href="https://github.com/Choyoonyoung98" target="_blank">
+        see my github</a></p>
+        <p><a href="mailto:yoonyoung980208@gmail.com?subject=Feedback">this is my email</a></p>
+
+        <p><b>href</b></p>
+        <ol>
+                <li>절대경로: http://www.google/com/ - 다른 웹 사이트의 페이지</li>
+                <li>상대 경로: ../doc/info.html - 웹 사이트 안에서의 다른 페이지</li>
+                <li>내부 파일: #archor1 - 현재 페이지 안의 다른 위치</li>
+        </ol>
+        <p><b>target</b>(target은 생략 가능)</p>
+        <ol>
+                
+                <li>_blank: 새로운 윈도우에서 새로운 페이지를 연다.</li>
+                <li>_self: 현재 윈도우에 새로운 페이지를 적재한다.</li>
+                <li>parent: 부모 프레임에 새로운 페이지를 적재한다.</li>
+                <li>_top: 현재 윈도우에 새로운 페이지를 적재하고 모든 프레임을 취소한다.</li>
+                <em>모든 프레임을 취소한다는 말이 무슨 뜻인지 이해하지 못함</em>
+        </ol>
+
+        <hr>
+        
+        <a id="id"><h2>move to id</h2></a>
+        <p><a href = "#p">move to paragraph tutorial</a></p>
+        <p><a href = "#h">move to heading tutorial</a></p>
+        <p><a href = "#br">move to breaking tutorial</a></p>
+        <p><a href = "#pr">move to previously formatted tutorial</a></p>
+        <p><a href = "#special">move to special character tutorial</a></p>
+        <p><a href = "#form">move to form tutorial</a></p>
+        <p><a href = "#ul">move to unordered lists tutorial</a></p>
+        <p><a href = "#ol">move to ordered lists tutorial</a></p>
+        <p><a href = "#dl">move to definition lists tutorial</a></p>
+        <p><a href = "#href">move to hyper link tutorial</a></p>
+
+        <hr>
+
+        <a id="image"><h2>image</h2></a>
+        <!-- 이후 서버 연결 시 이미지 데이터는 string값으로 가져오는 것이 일반적 -->
+        <!-- client local에 이미지를 가지고 있을 경우 png로 가지는게 일반적 -->
+        <img src="../img/testCat.jpeg" width="300" height="230" alt="sogang Univ. cat">
+
+    </body>
+    
+
+</html>
