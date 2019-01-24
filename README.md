@@ -1,5 +1,24 @@
 # Web
-Web study respository
+<p><h3>html 기본 템플릿</h3></p>
+<p><code><pre>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>write your page title</title>
+       
+
+    </head>
+
+    <body>
+       
+
+    </body>
+    
+
+</html>
+</pre></code></p>
+
+<hr>
 
 <p><h3>데이터를 보내는 방법</h3></p>
 <p><code><pre>
