@@ -1,6 +1,7 @@
 # Web
 
 <p><h3>task.json 기본 템플릿(MAC)</h3></p>
+<code><pre>
 {
     "version": "0.1.0",
     "command": "Chrome",
@@ -11,6 +12,7 @@
         "${file}"
     ]
 }
+</pre><code>
 <p><h3>html 기본 템플릿</h3></p>
 <p><code><pre>
 &lt;!DOCTYPE html&gt;
