@@ -5,17 +5,8 @@
 &lt;html&gt;
     &lt;head&gt;
         &lt;title&gt;write your page title&lt;/title&gt;
-       
-
     &lt;/head&gt;
-
-    &lt;body&gt;
-       
-
-    &lt;/body&gt;
-    
-
-&ㅣt;/html&gt;
+&lt;/html&gt;
 </pre></code></p>
 
 <hr>
