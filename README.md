@@ -1,4 +1,16 @@
 # Web
+
+<p><h3>task.json 기본 템플릿(MAC)</h3></p>
+{
+    "version": "0.1.0",
+    "command": "Chrome",
+    "osx": {
+        "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    },
+    "args": [
+        "${file}"
+    ]
+}
 <p><h3>html 기본 템플릿</h3></p>
 <p><code><pre>
 &lt;!DOCTYPE html&gt;
