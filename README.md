@@ -12,7 +12,7 @@
         "${file}"
     ]
 }
-</pre><code></p>
+</pre></code></p>
 
 <hr>
 
