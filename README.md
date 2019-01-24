@@ -1,21 +1,21 @@
 # Web
 <p><h3>html 기본 템플릿</h3></p>
 <p><code><pre>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>write your page title</title>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;write your page title&lt;/title&gt;
        
 
-    </head>
+    &lt;/head&gt;
 
-    <body>
+    &lt;body&gt;
        
 
-    </body>
+    &lt;/body&gt;
     
 
-</html>
+&ㅣt;/html&gt;
 </pre></code></p>
 
 <hr>
