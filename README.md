@@ -41,12 +41,13 @@
 </pre></code></p>
 <p><h4>GET방식과 POST방식</h4></p>
 <ul>
-<li>GET방식</li>
+<li><b>GET방식</b></li>
 <p>URL주소 뒤에 parameter를 붙여서 데이터를 전달하는 방식.</p>
 <p><code>https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=html</code></p>
 <p>?를 기준으로, 앞이 baseURL+localURL, 뒤에 오는 것이 parameter이다. </p>
 <em>주소만 보면 누구나 데이터 파악이 가능하기 때문에 비밀이 보장되지않는다. 따라서 일반적으로 패스워드 데이터를 GET방식으로 보내지 않는다.</em>
+<br>
 
-<li>POST방식</li>
+<li><b>POST방식</b></li>
 <p>사용자가 입력한 데이터를 URL 주소에 붙이지 않고 HTTP Request header에 포함시켜 전송하는 방식.</p>
 </ul>
