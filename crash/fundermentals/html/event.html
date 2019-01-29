@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>write your page title</title>
+        <script src="../js/event.js"></script>
+
+    </head>
+
+    <body>
+      <h1 id="title">Hi I am Title</h1>
+      <h4 id="time">this is time</h4>
+
+
+      <button onclick="doClick()">Click me</button>
+      <button onclick="this.innerHTML = 'You Clicked!'">Click me</button>
+      <!-- not a good way -->
+      <button onclick="changeText()">Click me</button>
+
+      <button onClick="showDate()">show Date</button>
+
+      <button onmouseover="showDate()">show Date with mouseover</button>
+      <button onmouseout="clearDate()">show Date with mouseover</button>
+    </body>
+
+
+</html>

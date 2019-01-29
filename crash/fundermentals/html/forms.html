@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>write your page title</title>
+        <script src="../js/form.js"></script>
+
+    </head>
+
+    <body id="body">
+      <div>
+          <form method="post" action="something.php" name="myForm"
+          onsubmit="return validateForm()">
+          <div>
+              <label>First Name</label>
+              <input type="text" name="firstName" id="firstName"/>
+          </div>
+          <div>
+              <label>Last Name</label>
+              <input type="text" name="lastName"  id="lastName"/>
+          </div>
+          <br/>
+          <input type="submit" value="submit"/>
+        </form>
+      </div>
+
+      <div>
+          <label>Background</label>
+          <select name="background" id="background"
+          onChange="changeBackground(this)">
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+          </select>
+      </div>
+
+
+
+    </body>
+
+
+</html>
