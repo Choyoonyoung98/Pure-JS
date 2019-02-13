@@ -1,5 +1,6 @@
 <?php
 
+ header('Access-Control-Allow-Origin: *');
 //Connect to a database
 //phpadmin에 database를 생성한 후
 $conn = mysqli_connect('loacalhost','root','123456','ajaxtest');
@@ -36,3 +37,4 @@ if(isset($_GET['name'])) {
 if(isset($_POST['name'])) {
   echo 'POST: Your name is ' . $_POST['name'];
 }
+?>

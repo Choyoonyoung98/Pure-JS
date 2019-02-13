@@ -12,3 +12,4 @@ $result = mysqli_query($conn, $query);
 $users = mysql_fetch_all($result, MYSQLI_ASSOC);
 
 echo json_encode($users);//put it into json
+?>

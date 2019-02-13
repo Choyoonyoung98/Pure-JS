@@ -33,7 +33,7 @@ function loadText() {
   xhr.onload = function() {//onload is not set until ready
   if(this.status == 200) {//200 mean ok
     console.log(this.responseText);//show sample.txt data
-    document.getElementsById('text').innerHTML = this.responseText;//가져온 데이터 화면에 뿌려주기
+    document.getElementById('text').innerHTML = this.responseText;//가져온 데이터 화면에 뿌려주기
   } else if(this.status == 404) {
     document.getElementById('text').innerHTML = 'Not found';
   }

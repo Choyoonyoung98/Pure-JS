@@ -7,12 +7,13 @@ function getName(e) {
 
   e.preventDefault();
 
-  var name = document.getElementById('name').value;
+  var name = document.getElementById('name1').value;
 
-  var xhr = XMLHttpRequest();
-  xhr.open('GET', 'process.php?name='+name, true);
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'process.php? name='+name, true);
 
   xhr.onload = function() {
+
     console.log(this.responseText);
 
   }
@@ -26,11 +27,12 @@ function postName(e) {
   var name = document.getElementById('name2').value;
   var params = "name"+name;
 
-  var xhr = XMLHttpRequest();
+  var xhr = new XMLHttpRequest();
   xhr.open('POST', 'process.php', true);
   xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 
   xhr.onload = function() {
+
     console.log(this.responseText);
 
   }

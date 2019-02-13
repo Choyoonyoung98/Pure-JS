@@ -1,13 +1,15 @@
+// header('Access-Control-Allow-Origin: *');
+
 document.getElementById('button').addEventListener('click',loadUsers);
 
 
 function loadUsers() {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'user.php', true);
+  xhr.open('GET', 'users.php', true);
 
   xhr.onload = function() {
     if(this.status == 200) {
-      var user = JSON.parse(this.responseText);
+      var users = JSON.parse(this.responseText);
       // console.log(user.name);
       var output = "";
 
