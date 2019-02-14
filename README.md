@@ -1,7 +1,7 @@
 # Web
 
 <p><h3>task.json 기본 템플릿(MAC)</h3></p>
-<p></p><code><pre>
+<p><code><pre>
 {
     "version": "0.1.0",
     "command": "Chrome",
