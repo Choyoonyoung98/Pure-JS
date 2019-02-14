@@ -1,4 +1,4 @@
-#Network
+# Network
 
 <p><h3>Networking between Server and Client</h3></p>
 <img src="../img/flow.jpg">
