@@ -55,7 +55,7 @@
 </ul>
 <br>
 <p><h4>JSON Ex</h4></p>
-<p><code><pre>
+<code><pre>
 {
     "postId": 1,
     "id": 1,
@@ -64,5 +64,5 @@
     "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
   },
 
-</pre></code></p>
+</pre></code>
 
