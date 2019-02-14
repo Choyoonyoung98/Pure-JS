@@ -1,7 +1,7 @@
 #Network
 
 <p><h3>Networking between Server and Client</h3></p>
-<img style="width:150px height: 180px "src="../img/flow.jpg">
+<img style="width:50px height: 180px"src="../img/flow.jpg">
 <p><h4>AJAX(Asynchronous JavaScript and XML)</h4></p>
 <ul>
   <li>Set of web technologies</li>
