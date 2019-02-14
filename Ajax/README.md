@@ -55,7 +55,7 @@
 </ul>
 <br>
 <p><h4>JSON Ex</h4></p>
-<p></p><code><pre>
+<p><code><pre>
 {
     "postId": 1,
     "id": 1,
