@@ -28,7 +28,37 @@ getElementByClassName으로 불러온 요소에 대해서는 배열처럼 접근
 
 <h4>Element.qurySelectorAll</h4>:query문으로 해당 요소의 전체를 불러온다.
 
+<hr>
 
+<h2>DOM 접근 메소드</h2>
 
+<h4>ParentNode</h4>:현재 노드의 부모노드에 접근한다.바로 상위 부모노드 뿐만 아니라 조상노드들에 대해서도 접근은 가능하지만, 잘  사용하지 않는다.
 
+<hr>
+
+<h4>ChildNode VS Children</h4>:부모노드에서 자식노드로도 접근 가능하다. 
+ChildNodes를 통한 접근의 경우, '줄바꿈'까지 인식하는 반면 children을 통한 접근은 해당 자식노드만을 출력한다.
+HTML code에 반영을 위한 접근이 필요하다면 children을 사용한다.
+
+<hr>
+
+<h4>FirstChild VS FirstElementChild</h4>:첫번째 자식 노드에 대한 접근이 가능하다. 
+firstChild를 통한 접근의 경우, first childe node를 element node 또는 text node, comment node로 반환한다.
+반면, firstElementChild는 first child node를 element node로만 반환을 한다.(text와 comment nodes를 무시)
+따라서 HTML code에 반영을 위한 접근이 필요하다면 firstElementChild을 사용한다.
+
+<hr>
+
+<h4>LastChild VS LastElementChild</h4>:마지막 자식에 대한 접근이 가능하다.
+HTML code에 반영을 위한 접근이 필요할 때에는 lastElementChild를 쓴다.
+
+<hr>
+
+<h4>NextSibling VS NextElementSibling</h4>:같은 깊이에 있는 자매 노드 중 본인 노드 기준으로 다음 자매 노드에 대한 접근이 가능하다.
+HTML code에 반영을 위한 접근이 필요할 때에는 nextElementChild를 쓴다.
+
+<hr>
+
+<h4>PreviousElementSibling</h4>:같은 깊이에 있는 자매 노드 중 본인 노드 기준으로 이전 자매 노드에 대한 접근이 가능하다.
+ 
 
