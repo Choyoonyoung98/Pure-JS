@@ -1,7 +1,7 @@
 # Web
 
 <p><h3>task.json 기본 템플릿(MAC)</h3></p>
-<p><code><pre>
+<code><pre>
 {
     "version": "0.1.0",
     "command": "Chrome",
@@ -12,12 +12,12 @@
         "${file}"
     ]
 }
-</pre></code></p>
+</pre></code>
 
 <hr>
 
-<p><h3>html 기본 템플릿</h3></p>
-<p><code><pre>
+<h3>html 기본 템플릿</h3>
+<code><pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
@@ -27,7 +27,7 @@
     &lt;/body&gt;
 
 &lt;/html&gt;
-</pre></code></p>
+</pre></code>
 
 <hr>
 <p><b>href</b></p>
@@ -47,7 +47,7 @@
 
 <hr>
 
-<p><h3>데이터를 보내는 방법</h3></p>
+<h3>데이터를 보내는 방법</h3>
 <p>action: 입력을 처리하는 서버 스크립트의 주소를 적는다.</p>
 <p>method: 입력 데이터가 서버로 보내지는 방법을 기술한다.</p>
 <p><code><pre>
