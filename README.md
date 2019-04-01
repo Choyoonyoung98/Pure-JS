@@ -18,6 +18,7 @@
 <hr>
 
 <h3>html 기본 템플릿</h3>
+
 ```
 <!DOCTYPE html>
 <html>
