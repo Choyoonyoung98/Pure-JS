@@ -1,6 +1,7 @@
 # Web
 
 <p><h3>task.json 기본 템플릿(MAC)</h3></p>
+
 ```
 {
     "version": "0.1.0",
@@ -18,15 +19,15 @@
 
 <h3>html 기본 템플릿</h3>
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;write your page title&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;/body&gt;
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>write your page title</title>
+    </head>
+    <body>
+    </body>
 
-&lt;/html&gt;
+</html>
 ```
 
 <hr>
@@ -50,11 +51,12 @@
 <h3>데이터를 보내는 방법</h3>
 <p>action: 입력을 처리하는 서버 스크립트의 주소를 적는다.</p>
 <p>method: 입력 데이터가 서버로 보내지는 방법을 기술한다.</p>
+
 ```
-&lt;form action="input.jsp" method="post"&gt;
-        &lt;input type="text" name="input" /&gt;
-        &lt;input type="submit"&gt;
-&lt;/form&gt;
+<form action="input.jsp" method="post">
+        <input type="text" name="input" />
+        <input type="submit">
+</form>
 ```
 <p><h4>GET방식과 POST방식</h4></p>
 <ul>
